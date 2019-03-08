@@ -13,8 +13,9 @@ void run_local_array() {
         char b;
     };
 
-    //2. declare a static array of structures
+    //2. declare a static array of structures inside of a function
     //the type of the array variable is "local_struct"
+    //we are putting 10 structs into this array
     struct local_struct static_array_of_structs[10];
 
     //an array of letters to use to populate our array of structs

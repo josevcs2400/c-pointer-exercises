@@ -12,7 +12,8 @@ struct global_struct {
 
 //2. declare a static array of structures outside of a function
 //the type of the array variable is "global_struct"
-struct global_struct static_array_of_structures[10]; //10 values
+//we are putting 10 structs into this array
+struct global_struct static_array_of_structures[10];
 
 void run_global_array() {
 
