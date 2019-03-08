@@ -14,6 +14,7 @@ void run_local_array() {
     };
 
     //2. declare a static array of structures
+    //the type of the array variable is "local_struct"
     struct local_struct static_array_of_structs[10];
 
     //an array of letters to use to populate our array of structs
