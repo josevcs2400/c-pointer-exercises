@@ -35,8 +35,7 @@ void list_insert() {
     previous = temp_node;
 }
 
-//void run_linked_list() {
-void main() {
+void run_linked_list() {
     printf("Running linked list\n");
 
     //3. initialize the linked list
